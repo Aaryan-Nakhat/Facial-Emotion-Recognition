@@ -13,7 +13,13 @@ Results after the above source video is passed through one of the trained models
 ## Running the video inference locally
 
 - Firstly run <code>pip install -r requirements.txt</code> to install all dependencies.
-- Then run <code>python video_inference.py</code> to try out the video inferencing locally.
+- Then run:
+  <code>python video_inference.py --model_to_use=0 --enable_real_time_video_inferencing=True</code> for real-time video inferencing
+
+  (OR)
+
+  <code>python video_inference.py --model_to_use=0 --prerecorded_video_path=<path_to_video></code> for video inferencing on pre-recorded videos
+  
 
 
 ## Dataset
