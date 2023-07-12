@@ -1,5 +1,5 @@
 # Facial-Emotion-Recognition
-An implementation of Facial Emotion Recognition using CNNs and transformer-based models like ViT (2021), ConvNeXT (2022), ConvNeXTv2 (2023)
+An implementation of Facial Emotion Recognition using CNNs and transformer-based models like ViT (2021), ConvNeXT (2022), and ConvNeXTv2 (2023)
 
 ## Demo
 
