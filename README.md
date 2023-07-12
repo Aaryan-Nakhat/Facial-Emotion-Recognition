@@ -21,7 +21,16 @@ Results after the above source video is passed through one of the trained models
 
   <code>python video_inference.py --model_to_use=0 --prerecorded_video_path=<path_to_video></code> for video inferencing on pre-recorded videos
   
+### Mapping guide for 'model_to_use':
 
+
+|                       Saved Model Path                      |        Type of Model       | Integer Mapping |
+|:-----------------------------------------------------------:|:--------------------------:|:---------------:|
+|      'models/Emotion_Recognition_Conv_fer_csv_data_.h5'     |             CNN            |        0        |
+| 'models/Emotion_Recognition_Conv_fer_csv_data_With_Aug_.h5' | CNN with Data Augmentation |        1        |
+|            'Aaryan333/vit-base-finetuned-fer2013'           |             ViT            |        2        |
+|         'Aaryan333/convnext-tiny-finetuned-fer2013'         |          ConvNeXT          |        3        |
+|      'Aaryan333/convnextv2-tiny-384-finetuned-fer2013'      |         ConvNeXTv2         |        4        |
 
 ## Dataset
 
