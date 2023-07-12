@@ -58,15 +58,15 @@ The performance of various classifiers is shown below:
 
 ![](miscellaneous/results.png)
 
-ViT has achieved the best results, and CNN with Data Augmentation is comparable to it. Note that ConvNeXTv2 has achieved relatively less scores because it was not fully trained as the other models (used a smaller batch size and trained only for 2 epochs). Considering the progress of the other transformer models (ViT and ConvNeXT) at 2 epochs, ConvNeXTv2’s metrics were significantly better. This indicates that further training of ConvNeXTv2 with a larger batch size shall improve the results further.
+ViT has achieved the best results, and CNN with Data Augmentation is comparable to it. Note that ConvNeXTv2 has achieved relatively less scores because it was not fully trained as the other models (used a smaller batch size and trained only for 2 epochs) due to a lack of computational resources. Considering the progress of the other transformer models (ViT and ConvNeXT) at 2 epochs, ConvNeXTv2’s metrics were significantly better. This indicates that further training of ConvNeXTv2 with a larger batch size shall improve the results further.
 
 
 ## Tech Stack
 
 * Tensorflow
-* Keras
+* PyTorch
 * Hugging Face
-* Gensim 
+* OpenCV 
 
 ## Improvements
 
