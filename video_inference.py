@@ -12,7 +12,7 @@ import argparse
 # Defining the Command Line Arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--model_to_use", type=int, help="which model to use (pass an integer among [0, 1, 2, 3, 4]",  required=True)
-parser.add_argument("--enable_real_time_video_inferencing", help="whether to enable real-time video inferencing (type: bool)", required=True)
+parser.add_argument("--enable_real_time_video_inferencing", type=bool, help="whether to enable real-time video inferencing (type: bool)", required=True)
 parser.add_argument("--prerecorded_video_path", help="path to the pre-recorded video")
 
 # Helper Variables
@@ -91,12 +91,9 @@ if boolean_checker:
 	b = args['enable_real_time_video_inferencing']
 else:
 	raise ValueError("enable_real_time_video_inferencing should be a boolean [True, False]")
-if len(args)==3:
-	string_checker = isinstance(args['prerecorded_video_path'], str)
-	if string_checker:
-		c = args['prerecorded_video_path']
-	else:
-		raise ValueError("prerecorded_video_path must be a string")
+string_checker = isinstance(args['prerecorded_video_path'], str)
+if string_checker:
+	c = args['prerecorded_video_path']
 else:
 	c = None
 
