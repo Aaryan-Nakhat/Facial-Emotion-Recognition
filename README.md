@@ -14,6 +14,7 @@ Results after the above source video is passed through one of the trained models
 
 - Firstly run <code>pip install -r requirements.txt</code> to install all dependencies.
 - Then run:
+  
   <code>python video_inference.py --model_to_use=0 --enable_real_time_video_inferencing=True</code> for real-time video inferencing
 
   (OR)
