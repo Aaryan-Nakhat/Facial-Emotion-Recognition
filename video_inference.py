@@ -18,7 +18,7 @@ parser.add_argument("--prerecorded_video_path", help="path to the pre-recorded v
 # Helper Variables
 class_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 available_models = ['./models/Emotion_Recognition_CNN.h5', 
-                    './Emotion_Recognition_CNN_with_Data_Aug.h5', 
+                    './models/Emotion_Recognition_CNN_with_Data_Aug.h5', 
                     'Aaryan333/vit-base-finetuned-fer2013',
                     'Aaryan333/convnext-tiny-finetuned-fer2013',
                     'Aaryan333/convnextv2-tiny-384-finetuned-fer2013'
