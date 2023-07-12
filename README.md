@@ -3,6 +3,10 @@ An implementation of Facial Emotion Recognition using CNNs and transformer-based
 
 ## Demo
 
+(<a href = "https://www.kaggle.com/datasets/deadskull7/fer2013">Original YouTube Video</a>)
+
+Results after the video is passed through one of the trained models (ViT to be specific):
+
 ![Demo](miscellaneous/demo-fer-vit.gif)
 
 
