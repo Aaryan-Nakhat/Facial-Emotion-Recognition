@@ -81,7 +81,7 @@ ViT has achieved the best results, and CNN with Data Augmentation is comparable 
 
 * Tensorflow
 * PyTorch
-* Hugging Face
+* HuggingFace
 * OpenCV 
 
 ## Improvements
